@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 1.1rem;
+    position: relative;
+    box-shadow: 1rem 3rem #0C1729, -1rem 3rem #0C1729;
+}
+
+.nft-icon {
+    width: 20rem;
+    height: 20rem;
+    background-color: #00bdd1;
+    position: absolute;
+    top: 1rem;
+    opacity: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft-icon:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.nft-eq img {
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.nft-eq {
+    width: 100px;
+    background-size: contain;
+}
+
+.nft-text {
+    display: inline-block;
+    width: 100%;
+    max-width: 20rem;
+    text-align: left;
+}
+
+.nft-text h1 {
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 25px;
+}
+
+.nft-text h1:hover {
+    color: #34E7EA;
+    cursor: pointer;
+}
+
+.nft-text p {
+    font-size: 18px;
+    color: #697C9C;
+    padding-bottom: 2 rem;
+}
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.eth-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: lighter;
+    position: relative;
+    right: 15%;
+    color: #00FFF8;
+}
+
+.clock-icon {
+    position: relative;
+    left: 15%;
+    top: 2.5px;
+}
+
+.clock-text {
+    color: #859FC7;
+    font-weight: normal;
+}
+
+hr {
+    width: 100%;
+    border-style: none;
+    border-top-style: solid;
+    border-color: #2F415B;
+    border: 1px 0px 0px 0px;
+    margin-top: 1.5rem;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.end img {
+    width: 16%;
+    height: 16%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+
+.end p {
+    margin-left: 1rem;
+    margin-top: 1 rem;
+    color: white;
+}
+
+.end p:hover {
+    color: #34D3D1;
+    cursor: pointer;
+}
+
+span {
+    color: #8BACDA;
+}
